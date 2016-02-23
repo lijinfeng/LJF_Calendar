@@ -1,0 +1,24 @@
+//
+//  Calendar_Prefix.pch
+//  Calendar_MyDemo
+//
+//  Created by lijinfeng on 16/2/19.
+//  Copyright © 2016年 lijinfeng. All rights reserved.
+//
+
+#ifndef Calendar_Prefix_pch
+#define Calendar_Prefix_pch
+
+#import "CalendarManage.h"
+
+/** color */
+
+#define UIColorFromRGBA(rgbValue, alphaValue) [UIColor  colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0  green:((float)((rgbValue & 0x00FF00) >> 8))/255.0  blue:((float)(rgbValue & 0x0000FF))/255.0  alpha:alphaValue]
+
+#define mainColor 0x31B122
+#define BGColor 0xf2f2f2
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Calendar_Prefix_pch */
